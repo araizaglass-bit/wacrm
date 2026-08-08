@@ -39,6 +39,11 @@ yarn-error.log*
 # vercel
 .vercel
 
+# Claude Code local tooling — settings/skills are per-machine, not app code
+.claude/settings.local.json
+.claude/skills/
+.agents/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

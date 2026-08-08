@@ -23,7 +23,7 @@ export const THEME_IDS = [
 
 export type ThemeId = (typeof THEME_IDS)[number];
 
-export const DEFAULT_THEME: ThemeId = "violet";
+export const DEFAULT_THEME: ThemeId = "cobalt";
 
 export const STORAGE_KEY = "wacrm.theme";
 
@@ -82,8 +82,8 @@ export const THEMES: ReadonlyArray<ThemeMeta> = [
   {
     id: "cobalt",
     name: "Cobalt",
-    tagline: "Clean B2B-SaaS blue — calm and product-y.",
-    swatch: "oklch(0.585 0.2 254)",
+    tagline: "The Waflow brand blue — calm and product-y.",
+    swatch: "#1A73E8",
   },
   {
     id: "amber",
